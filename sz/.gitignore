@@ -1,0 +1,10 @@
+/.idea
+/Application/Runtime/*
+/vendor
+Application/Api/Common/lock.text
+Application/Api/Conf/draw.php
+Application/Admin/Conf/draw.php
+Application/Common/Conf/draw.php
+Pem/*
+#师傅码拉取头像
+Thumb/*

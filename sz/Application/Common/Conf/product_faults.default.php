@@ -1,0 +1,11 @@
+<?php
+
+return [
+
+    'FACTORY_DEFAULT_FAULT_IN_PRICE'  => '10.00',
+    'FACTORY_DEFAULT_FAULT_OUT_PRICE' => '10.00',
+    'WORKER_DEFAULT_FAULT_IN_PRICE'   => '10.00',
+    'WORKER_DEFAULT_FAULT_OUT_PRICE'  => '10.00',
+
+
+];

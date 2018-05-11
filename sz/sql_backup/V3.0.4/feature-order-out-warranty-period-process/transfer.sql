@@ -1,0 +1,1 @@
+alter table pay_platform_record add `notify_time` int(10) unsigned NOT NULL DEFAULT 0 COMMENT '支付回调时间';

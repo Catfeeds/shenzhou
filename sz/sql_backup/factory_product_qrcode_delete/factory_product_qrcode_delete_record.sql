@@ -1,0 +1,20 @@
+CREATE TABLE `factory_product_qrcode_delete_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `product_id` int(11) NOT NULL DEFAULT '0' COMMENT '产品ID',
+  `factory_id` int(11) NOT NULL DEFAULT '0' COMMENT '厂家ID',
+  `factory_code` varchar(155) NOT NULL COMMENT '厂家编码',
+  `qr_first_int` int(11) NOT NULL COMMENT '流水首码',
+  `qr_last_int` int(11) NOT NULL COMMENT '流水尾码',
+  `nums` int(11) NOT NULL COMMENT '绑定数量',
+  `factory_excel_id` int(11) DEFAULT NULL,
+  `datetime` int(11) NOT NULL COMMENT '添加时间',
+  `shengchan_time` int(10) NOT NULL DEFAULT '0' COMMENT '生产时间',
+  `chuchang_time` int(10) NOT NULL DEFAULT '0' COMMENT '出厂时间',
+  `zhibao_time` int(5) NOT NULL DEFAULT '12' COMMENT '质保期 单位月 默认12月',
+  `remarks` varchar(500) DEFAULT NULL COMMENT '备注',
+  `diy_remarks` varchar(500) DEFAULT NULL COMMENT '自定义备注',
+  `active_json` json NOT NULL COMMENT '激活策略 is_active_type 允许激活身份 is_order_type 允许报修身份 active_credence_day 提供购买凭证 cant_active_credence_day 禁止激活 active_reward_moth 激活赠送延保',
+  `admin_id` int(10) NOT NULL COMMENT '删除人id（客服）',
+  `create_time` int(11) NOT NULL COMMENT '删除记录创建时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='厂家自有产品的二维码绑定数据的清空记录';

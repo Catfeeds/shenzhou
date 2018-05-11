@@ -1,0 +1,1 @@
+ALTER table worker_order_fee modify `coupon_reduce_money` int(11) not null DEFAULT 0 COMMENT '优惠券减免金额';

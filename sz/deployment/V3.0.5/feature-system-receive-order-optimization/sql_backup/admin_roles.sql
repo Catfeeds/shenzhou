@@ -1,0 +1,1 @@
+ALTER TABLE `admin_roles` MODIFY COLUMN `level`  tinyint(4) NOT NULL DEFAULT 1 COMMENT '角色级别：1普通客服，2主管，3组长' AFTER `is_disable`;

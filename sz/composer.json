@@ -1,0 +1,38 @@
+{
+    "name": "topthink/thinkphp",
+    "description": "the ThinkPHP Framework",
+    "type": "framework",
+    "keywords": ["framework","thinkphp","ORM"],
+    "homepage": "http://thinkphp.cn/",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "liu21st",
+            "email": "liu21st@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/http": "^5.3.23",
+        "overtrue/wechat": "~3.0",
+        "nesbot/carbon": "~1.0",
+        "PHPOffice/PHPExcel": "^1.8",
+        "overtrue/pinyin": "~3.0",
+        "qiuqiux/base-convert": "^1.0",
+        "qiuqiux/indexed-array": "^1.0",
+        "stoneworld/wechat": "^2.0",
+        "jpush/jpush": "v3.5.*",
+        "flc/dysms": "^1.0",
+        "yunpian/yunpian-php-sdk": "^1.0",
+        "hashids/hashids": "^2.0",
+        "pingplusplus/pingpp-php": "^2.4"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
